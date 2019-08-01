@@ -1,0 +1,181 @@
+body {
+  background-color: #f9f9f9;
+  background-color: #333333;
+}
+
+#jnc-intranet h1, #jnc-intranet h2, #jnc-intranet h3, #jnc-intranet h4, #jnc-intranet h5, #jnc-intranet h6, #jnc-intranet p, #jnc-intranet ul, #jnc-intranet li {
+  margin: 0;
+  padding: 0;
+}
+#jnc-intranet .container {
+  width: 1500px;
+}
+#jnc-intranet header {
+  background: #333333;
+  border-bottom: solid 6px #ff2d55;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+#jnc-intranet header .logo {
+  border-bottom: solid 1px #ff2d55;
+  padding-bottom: 20px;
+}
+#jnc-intranet header nav.main-nav {
+  background: #333;
+}
+#jnc-intranet header nav.main-nav ul li {
+  display: inline-block;
+}
+#jnc-intranet header nav.main-nav ul li a {
+  padding: 6px 30px;
+  display: inline-block;
+  color: #ffffff;
+  background: #3f3f3f;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+#jnc-intranet header nav.main-nav ul li a:hover {
+  text-decoration: none;
+  background: #777;
+}
+#jnc-intranet header nav.main-nav ul li a:active, #jnc-intranet header nav.main-nav ul li a:focus {
+  text-decoration: none;
+}
+#jnc-intranet header .date-time {
+  position: absolute;
+  right: 0;
+  color: #cccccc;
+}
+#jnc-intranet .main {
+  background: #f1f1f1;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-left: solid 1px #000000;
+  border-right: solid 1px #000000;
+  border-top: solid 1px black;
+}
+#jnc-intranet .main p {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+#jnc-intranet .main .sidebar {
+  padding-left: 0;
+}
+#jnc-intranet .main .sidebar .inner {
+  border: solid 1px #bbb;
+  border-top: none;
+}
+#jnc-intranet .main .sidebar .inner ul.links li {
+  display: block;
+  border-bottom: solid 1px #ddd;
+}
+#jnc-intranet .main .sidebar .inner ul.links li a {
+  display: block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: #444444;
+  padding-left: 20px;
+}
+#jnc-intranet .main .sidebar .inner ul.links li a:hover {
+  background: #FFF;
+  text-decoration: none;
+}
+#jnc-intranet .main .sidebar .inner ul.links li a:active, #jnc-intranet .main .sidebar .inner ul.links li a:focus {
+  text-decoration: none;
+}
+#jnc-intranet .main .sidebar .inner ul.links li a.active {
+  background: #ffffff;
+}
+#jnc-intranet .main .sidebar .inner ul.links li:last-of-type {
+  border-bottom: none;
+}
+#jnc-intranet .main .sidebar .heading {
+  border: solid 1px #bbb;
+  border-bottom: solid 2px #000000;
+  padding: 15px;
+  text-align: center;
+}
+#jnc-intranet .main .sidebar .module {
+  border: solid 1px #bbb;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+#jnc-intranet .main .sidebar .module .date-time {
+  text-align: center;
+}
+#jnc-intranet .main .sidebar .module .date-time h5 {
+  margin-bottom: 10px;
+}
+#jnc-intranet .main .sidebar .news-events {
+  margin-top: 20px;
+}
+#jnc-intranet .main .media-window {
+  padding: 6px;
+  background: #ffffff;
+  border: solid 1px #bbb;
+  border-top-color: #ddd;
+  border-left-color: #ddd;
+}
+#jnc-intranet .main .media-window .inner {
+  position: relative;
+  border: solid 1px #bbb;
+  border-bottom-color: #ddd;
+  border-right-color: #ddd;
+  height: 100%;
+  padding: 15px;
+}
+#jnc-intranet .main .media-window #template-wrapper {
+  overflow: scroll;
+  height: 100%;
+  padding: 20px;
+  border: solid 1px #ccc;
+}
+#jnc-intranet .main .media-window #docbox {
+  border: solid 1px #ccc;
+}
+#jnc-intranet .home .heading {
+  text-align: center;
+  border-bottom: solid 1px #333333;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 35px;
+  padding-bottom: 15px;
+}
+#jnc-intranet footer {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  background: #333333;
+  border-top: solid 3px #ff2d55;
+  text-align: center;
+  color: #ccc;
+}
+#jnc-intranet footer .inner {
+  padding: 10px;
+}
+#jnc-intranet #doc-wrapper {
+  color: #ffffff;
+}
+#jnc-intranet #loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 1500px) {
+  #jnc-intranet .container {
+    margin: 0;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #jnc-intranet .container {
+    margin: 0;
+    width: 100%;
+  }
+}
