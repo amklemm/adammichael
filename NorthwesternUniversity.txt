@@ -19,6 +19,7 @@ I'm building this in parallel to a styleguide.  If you navigate to the template,
 3. Portfolio
 
 This is my portfolio src code: written in React so that you may be able to see some of that code.
+I would point you to the View_Resume.js file inside components to see how I have mapped over json to construct my online resume in addition to reviewing the rest.
 
 
 
