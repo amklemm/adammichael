@@ -20,7 +20,7 @@ head
 	meta(charset="utf-8")
 	meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
 	block title
-		title Template
+		title Styleguide
 
 	block meta
 		meta(name='description', content= '')
@@ -28,13 +28,21 @@ head
 		meta(name='viewport', content='width=device-width, initial-scale=1.0')
 
 	block stylesheets
-		link(rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+		//- link(rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+		link(rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css')
 		<!-- build:css -->
 		link(rel='stylesheet' type='text/css' href='../css/styles.css')
 		<!-- endbuild -->
 
 		link(rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto+Slab:300,700|Roboto:300,400,700')
-		link(rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css')
+
+		//- link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous")
+
+		link(rel='stylesheet' type='text/css' href='https://pro.fontawesome.com/releases/v5.0.10/css/all.css')
+
+
+
+
 
 	block modernizr
 		script(src=" https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js")
@@ -45,7 +53,7 @@ head
 		<![endif]-->
 
 
-body(id="template")
+body(id="vbes")
 	//- Add Warning Banner for outdated browsers
 	block browsehappy
 		<!--[if lt IE 9]>
@@ -57,23 +65,24 @@ body(id="template")
 		//- include ../partials/preheader
 
 	//- Header includes Nav
-	block header
-		include ../partials/header
+	block sg-header
+		include ../partials/sg-header
 
-
+		
 	//- Main Content
-	#main.clearfix
-		include ../partials/sidebar		
+	#sg-main.clearfix
+		include ../partials/sidebar
 		block content
 
 	//- Add Footer
-	block footer
-		include ../partials/footer
+	block sg-footer
+		include ../partials/sg-footer
 
 	//- Add Scripts
 	block scripts
 		script(type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js")
-		script(type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js")
+		//- script(type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js")
+		script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js")
 
 		<!-- build:js -->
 		script(src='../js/main.js')

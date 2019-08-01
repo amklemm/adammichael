@@ -1,17 +1,19 @@
-//- Extending from the main template :: base.jade
+//- Extending from the main template :: base.pug
 extends layouts/base.pug
 
 
 
 //- Page Content
 block content
-  div(id="content")
-    .page(id="color-palette")
+  div(id="sg-content")
+    .page(id="sg-color-palette").template
       .inner
-        .heading
-          h2 Color Palette
-          p.
-            The VBES palette has been developed for optimal legibility, accessibility, and consistency withe the Aon Brand.
+        .sg-heading.sg
+          h1.grey Color Palette
+          p.large.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 
         .colors.primary
           h6.grey Primary
@@ -75,6 +77,9 @@ block content
                 .values
                   p.hex #BF4C4A
                   p.rgb (191, 76, 74)
+                .use
+                  p .c-secondary-red
+                  p .bg-secondary-red
 
             li.color
               .inner
@@ -82,6 +87,9 @@ block content
                 .values
                   p.hex #7AB800
                   p.rgb (122, 184, 0)
+                .use
+                  p .c-secondary-green
+                  p .bg-secondary-green
 
             li.color
               .inner
@@ -89,6 +97,9 @@ block content
                 .values
                   p.hex #F0A800
                   p.rgb (240, 168, 0)
+                .use
+                  p .c-secondary-yellow
+                  p .bg-secondary-yellow
 
         .colors.secondary
           h6.grey Neutrals
@@ -99,6 +110,9 @@ block content
                 .values
                   p.hex #4C4D4F
                   p.rgb (76, 77, 79)
+                .use
+                  p .c-neutral-grey1
+                  p .bg-neutral-grey1
 
             li.color
               .inner
@@ -106,6 +120,9 @@ block content
                 .values
                   p.hex #9B9B9B
                   p.rgb (155, 155, 155)
+                .use
+                  p .c-neutral-grey2
+                  p .bg-neutral-grey2
 
             li.color
               .inner
@@ -113,6 +130,9 @@ block content
                 .values
                   p.hex #C0C0C0
                   p.rgb (192, 192, 192)
+                .use
+                  p .c-neutral-grey3
+                  p .bg-neutral-grey3
 
             li.color
               .inner
@@ -120,6 +140,19 @@ block content
                 .values
                   p.hex #E4E4E4
                   p.rgb (228, 228, 228)
+                .use
+                  p .c-neutral-grey4
+                  p .bg-neutral-grey4
+
+            li.color
+              .inner
+                .circle.bg-neutral-grey5
+                .values
+                  .p.hex #2C2C2D
+                  p.rgb (44, 44, 45)
+                .use
+                  p .c-neutral-grey5
+                  p .bg-neutral-grey5
 
 
 

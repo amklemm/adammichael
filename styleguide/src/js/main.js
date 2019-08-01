@@ -14,12 +14,6 @@ app.isHome = $('.page').hasClass('home-page');
 
 // Ca$hes
 var $html = $('html');
-var $body = $('body');
-var $header = $('header');
-var $headerBg = $('header .bg');
-var $menu = $('nav');
-var $navTrigger = $('.nav-trigger a');
-var $homeHeader = $('.home-page .header');
 
 
 // Debounce ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -84,20 +78,20 @@ var testWindowWidth = debounce(function(){
 }, 200);
 testWindowWidth();
 
-// Hide / Show Fixed header based on scroll
-var testScroll = debounce(function(){
-	if(app.isHome){
-		var scroll = window.scrollY;
-		var headerHt = $homeHeader.outerHeight() - 60;
-		var value;
-		if(scroll < headerHt){
-			value = scroll / headerHt;	
-		}else{
-			value = 1;
-		}
-		$headerBg.css('opacity', value);
-	}
-});
+// // Hide / Show Fixed header based on scroll
+// var testScroll = debounce(function(){
+// 	if(app.isHome){
+// 		var scroll = window.scrollY;
+// 		var headerHt = $homeHeader.outerHeight() - 60;
+// 		var value;
+// 		if(scroll < headerHt){
+// 			value = scroll / headerHt;	
+// 		}else{
+// 			value = 1;
+// 		}
+// 		$headerBg.css('opacity', value);
+// 	}
+// });
 
 // Resizing Window :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 $(window).resize(function(){
@@ -105,10 +99,10 @@ $(window).resize(function(){
 	testWindowWidth();
 });
 
-// Window Scroll
-$(window).scroll(function(){
-	testScroll();
-});
+// // Window Scroll
+// $(window).scroll(function(){
+// 	testScroll();
+// });
 
 
 // Application JS Below  ::  Utilities Above
@@ -118,10 +112,41 @@ $(window).scroll(function(){
 // ______________________________________________________________________________________________________
 // ______________________________________________________________________________________________________
 
+// Remove All Styleguide class from All elements ( .sg ) : Comment for production: uncomment for styleguide
+// Don't forget to comment out the .sg Styles as well in main.scss
+/* 
+var sgElementsToRemove = $('.sg-remove');
+$(sgElementsToRemove).each(function(el){
+	$(this).removeClass('sg').removeClass('sg-remove');
+});
+*/  
+
+// Utility to find All elements w/ .sg : can be used to see if there should be a .sg-remove class needed
+// All Elements w/ .sg ONLY will ONLY be used for Styleguide
+// All Elements w/ .sg.sg-remove will need to have the class of .sg removed for productions
+/*  
+var sgElements = $('.sg');
+$(sgElements).each(function(el){
+	console.log(this);
+});
+*/
 
 
 
 
+
+
+// Add .active class to the 
+
+$(":input").focus(function() {
+
+	if( !$(this).parent().hasClass('error') ){
+		$("label[for='" + this.id + "']").addClass("active");
+	}
+  
+}).blur(function() {
+  $("label").removeClass("active");
+});
 
 
 

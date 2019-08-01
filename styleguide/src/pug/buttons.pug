@@ -1,0 +1,32 @@
+//- Extending from the main template :: base.pug
+extends layouts/base.pug
+
+
+//- Page Content
+block content
+	div(id="sg-content")
+		.page(id="sg-buttons")
+			.inner
+				.sg-heading.sg
+					h1.grey Buttons
+					p.large.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim.
+
+				.button-group
+					h6.button-label Primary Default
+					+link(class="btn primary") Button Text
+					h6.button-label Primary Disabled
+					+link(class="btn primary disabled") Button Text
+
+				.button-group
+					h6.button-label Secondary Default
+					+link(class="btn secondary") Button Text
+					h6.button-label Secondary Disabled
+					+link(class="btn secondary disabled") Button Text
+
+				.button-group
+					h6.button-label Tertiary Default
+					+link(class="btn tertiary") Button Text
+					h6.button-label Tertiary Disabled
+					+link(class="btn tertiary disabled") Button Text

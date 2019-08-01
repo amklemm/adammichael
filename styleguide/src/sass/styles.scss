@@ -4,8 +4,21 @@
 @import './includes/main-styles';
 @import './includes/header-styles';
 @import './includes/footer-styles';
+@import './includes/sg-header-styles';  //- Styleguide styles only
+@import './includes/sg-footer-styles';  //- Styleguide styles only
 @import './includes/color-palette-styles';
 @import './includes/typography-styles';
+@import './includes/template-styles';
+@import './includes/button-styles';
+@import './includes/iconography-styles';
+@import './includes/checks-and-radios';
+@import './includes/input-styles';
+@import './includes/select-menu-styles';
+@import './includes/toggle-styles';
+@import './includes/header-navs-styles';
 
+
+//- Only include for the styleguide
+@import './includes/_styleguide_only-styles';
 
 

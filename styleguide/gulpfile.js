@@ -20,7 +20,9 @@ var reload = browserSync.reload;
 */
 function html() {
   return src('src/pug/*.pug')
-    .pipe(pug())
+    .pipe(pug({
+      pretty: true
+    }))
     .pipe(dest('dev/html'))
 }
 watch('src/pug/**/*.pug', html);
@@ -36,7 +38,9 @@ watch('src/pug/**/*.pug', html);
 sass.compiler = require('node-sass');
 function css() {
   return src('src/sass/*.scss')
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({
+      outputStyle: 'expanded'
+    }).on('error', sass.logError))
     .pipe(dest('dev/css'))
 }
 watch('src/sass/**/*.scss', css);
@@ -78,4 +82,3 @@ exports.css = css;
 exports.js = js;
 
 exports.default = parallel(html, css, js);
-

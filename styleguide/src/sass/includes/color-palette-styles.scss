@@ -1,4 +1,6 @@
-//- Primary
+/* Color Palette */
+
+/* Primaryt */
 .c-white{
 	color: $white;
 }
@@ -41,7 +43,7 @@
 .bg-primary-blue5{
 	background-color: $primary_blue5;
 }
-//- Secondary
+/* Secondary */
 .c-secondary-red{
 	color: $secondary-red;
 }
@@ -60,7 +62,7 @@
 .bg-secondary-yellow{
 	background-color: $secondary-yellow;
 }
-//- Neutrals
+/* Neutrals */
 .c-neutral-grey1{
 	color: $neutral-grey1;
 }
@@ -85,9 +87,18 @@
 .bg-neutral-grey4{
 	background-color: $neutral-grey4;
 }
+.c-neutral-grey5{
+	color: $neutral-grey5;
+}
+.bg-neutral-grey5{
+	background-color: $neutral-grey5;
+}
 
 
-#color-palette{
+
+
+/* Style Guide Styles ONLY : Color Palette */
+#sg-color-palette{
 	.circle{
 		width: 130px;
 		height: 130px;
@@ -95,6 +106,7 @@
 		margin-bottom: 10px;
 	}
 	.heading{
+		// margin-bottom: 30px;
 		h2{
 
 		}
@@ -111,7 +123,11 @@
 		}
 	}
 	.colors{
-		padding: 20px 0;
+		// padding: 20px 0;
+		margin-bottom: 20px;
+		&:last-of-type{
+			margin-bottom: 0;
+		}
 
 		h4{
 
@@ -125,6 +141,6 @@
 	}
 	
 }
-
+/* END Style Guide Styles : Color Palette */
 
 

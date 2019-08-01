@@ -1,0 +1,47 @@
+/* Iconography */
+.icon{
+	font-family: $font-awesome;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: $light-weight;
+	display: inline-block;
+	text-align: center;
+	&.icon-blue{
+		color: $primary_blue2;
+		font-weight: $normal-weight;
+	}
+	&.icon-grey{
+		color: $neutral_grey1;
+	}
+	&.icon-nav{
+		color: $primary_blue4;
+	}
+	&.icon-white{
+		color: $white;
+		&.sg{
+			background-color: $black;
+			display: inline-block;
+		}
+	}
+}
+
+
+
+/* Style Guide Styles ONLY : Iconography */
+#sg-iconography{
+	.icon-group{
+		margin-bottom: 20px;
+		&:last-of-type{
+			margin-bottom: 0;
+		}
+		.icon{
+			margin-right: 15px;
+			min-width: 24px;
+		}
+	}
+}
+/* END Style Guide Styles : Iconography */
+
+
+
+

@@ -4,12 +4,45 @@
 $example: 10px;
 $example-border: solid $example black;
 
+$button-max-width: 270px;
+
 
 // Fonts
-// $default-font: Arial, "Helvetica Neue", Helvetica, sans-serif;
-
 $font-roboto: 'Roboto', Helvetica, sans-serif;
 $font-roboto-slab: 'Roboto Slab', Times, serif;
+$font-awesome: 'Font Awesome 5 pro';
+
+
+// Font Awesome Icons
+$fa-question-circle: "\f059";
+$fa-usd-circle: "\f2e8";
+$fa-user: "\f007";
+$fa-phone: "\f095";
+$fa-exclamation-circle: "\f06a";
+$fa-exclamation-triangle: "\f071";
+$fa-bars: "\f0c9";
+$fa-edit: "\f044";
+$fa-check: "\f00c";
+$fa-check-circle: "\f058";
+$fa-list: "\f03a";
+$fa-table: "\f0ce";
+$fa-chart-bar: "\f080";
+$fa-ellipsis-v: "\f142";
+$fa-info-circle: "\f05a";
+$fa-plus: "\f067";
+$fa-minus: "\f068";
+$fa-file: "\f15b";
+$fa-thumbs-up: "\f164";
+$fa-comment: "\f075";
+$fa-chevron-down: "\f078";
+$fa-chevron-up: "\f077";
+$fa-times: "\f00d";
+$fa-times-circle: "\f057";
+$fa-sort-down: "\f0dd";
+$fa-sort-up: "\f0de";
+
+
+
 
 $light-weight: 300;
 $bold-weight: 700;

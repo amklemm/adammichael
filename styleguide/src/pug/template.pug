@@ -1,0 +1,75 @@
+//- Extending from the main template :: base.pug
+extends layouts/base.pug
+
+
+//- Page Content
+block content
+  div(id="sg-content")
+    .page.template
+      .inner
+        .sg-heading.sg
+          h1.grey Template
+          p.large.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+        header
+          .max-container
+            .inner
+              .logo
+                img(src="http://placehold.it/60x25")
+
+              .nav-buttons
+                ul.clearfix
+                  li
+                    +link() Help
+                  li
+                    +link() Cart
+                  li
+                    +link() Profile
+        .vbes-progress-bar
+          .max-container
+            img(src="http://placehold.it/1600x100")
+
+
+        #vbes-main
+          .max-container
+            .inner
+              h6.form-label.light-grey Section Title
+              h1 Page Title
+              p.large.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+              .content-window.sg.sg-remove
+                .inner
+                  .copy Content Window
+
+        footer
+          .max-container
+            .inner.clearfix
+              .side-left
+                +link(class="btn tertiary") Back
+
+              .side-right
+                .up-next
+                  span.form-btn-title Next Up:
+                  span.form-btn-label [Next Page Title]
+                +link(class="btn secondary") Save &amp; Finish Later
+                +link(class="btn primary") Confirm &amp; Continue
+
+
+
+
+
+
+
+
+
+
+
+

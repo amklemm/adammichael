@@ -1,0 +1,59 @@
+//- Extending from the main template :: base.pug
+extends layouts/base.pug
+
+
+//- Page Content
+block content
+  - var message = 'The quick brown fox jumps over the lazy dog.';
+  div(id="sg-content")
+    .page(id="sg-checks-and-radios").template
+      .inner
+        .sg-heading.sg
+          h1.grey Checkboxes &amp; Radio Buttons
+
+        .checkboxes-group
+          .checkbox-group
+            .custom-control.custom-checkbox.aon-custom-checkbox
+              input(type="checkbox" id="customCheck1").custom-control-input
+              label(for="customCheck1").custom-control-label Check this custom checkbox
+
+          .checkbox-group
+            .custom-control.custom-checkbox.aon-custom-checkbox
+              input(type="checkbox" id="customCheck2" disabled).custom-control-input
+              label(for="customCheck2").custom-control-label Disabled Custom Checkbox
+
+          .checkbox-group
+            .custom-control.custom-checkbox.aon-custom-checkbox
+              input(type="checkbox" id="customCheck3").custom-control-input.error
+              label(for="customCheck3").custom-control-label Error : Checkbox
+
+
+        .radios-group
+          .radio-group
+            .custom-control.custom-radio.aon-custom-radio
+              input(type="radio" id="customRadio1-a" name="custom-radio-group-a").custom-control-input
+              label(for="customRadio1-a").custom-control-label Toggle this custom radio button
+
+            .custom-control.custom-radio.aon-custom-radio
+              input(type="radio" id="customRadio2-a" name="custom-radio-group-a").custom-control-input
+              label(for="customRadio2-a").custom-control-label Toggle this custom radio button
+
+            .custom-control.custom-radio.aon-custom-radio
+              input(type="radio" id="customRadio3-a" name="custom-radio-group-a").custom-control-input.error
+              label(for="customRadio3-a").custom-control-label Error custom radio button
+
+            .custom-control.custom-radio.aon-custom-radio
+              input(type="radio" id="customRadio4-a" name="custom-radio-group-a" disabled).custom-control-input
+              label(for="customRadio4-a").custom-control-label Disabled Radio : Cannot Select
+
+
+
+
+
+
+
+
+
+
+
+

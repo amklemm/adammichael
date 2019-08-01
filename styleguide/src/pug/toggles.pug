@@ -1,0 +1,61 @@
+//- Extending from the main template :: base.pug
+extends layouts/base.pug
+
+
+//- Page Content
+block content
+	div(id="sg-content")
+		.page(id="sg-toggles")
+			.inner
+				.sg-heading.sg
+					h1.grey Toggles
+
+
+				div.
+					<div class="form-group">  
+					  <span class="switch switch-sm">
+					    <input type="checkbox" class="switch" id="switch-sm">
+					    <label for="switch-sm">Small switch</label>
+					  </span>
+					</div>
+
+					<!-- Normal switch -->
+					<div class="form-group">
+					  <span class="switch">
+					    <input type="checkbox" class="switch" id="switch-normal">
+					    <label for="switch-normal">Normal switch</label>
+					  </span>
+					</div>
+
+					<!-- Large switch -->
+					<div class="form-group">
+					  <span class="switch switch-lg">
+					    <input type="checkbox" class="switch" id="switch-lg">
+					    <label for="switch-lg">Large switch</label>
+					  </span>
+					</div>
+
+
+				//- .form-group
+					span.switch
+						label(for="switch-id-1") Toggle Switch
+						input(type="checkbox" id="switch-id-1").switch
+
+				//- .form-group
+					span.switch
+						label(for="switch-id-1") Toggle Switch
+						input(type="checkbox" id="switch-id-1").switch
+
+				//- .form-group
+					span.switch
+						label(for="switch-id-1") Toggle Switch
+						input(type="checkbox" id="switch-id-1").switch
+
+
+								
+
+
+
+
+
+

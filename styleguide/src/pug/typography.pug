@@ -1,127 +1,166 @@
-//- Extending from the main template :: base.jade
+//- Extending from the main template :: base.pug
 extends layouts/base.pug
 
 
 //- Page Content
 block content
-  div(id="content")
-    .page(id="typography")
+  - var message = 'The quick brown fox jumps over the lazy dog.';
+  div(id="sg-content")
+    .page(id="sg-typography").template
       .inner
-        .heading
-          h2 Typography
-          p.
-            The VBES experience leverages 'Roboto' and 'Roboto Slab' web fonts, failing over to 'Helvetic' and 'Times'.
+        .sg-heading.sg
+          h1.grey Typography
+          p.large
+            The Fonts: 'Roboto' and 'Roboto Slab' web fonts, failing over to 'Helvetic' and 'Times'.
 
         //- Headings
         .font-group.h1s
           h6.heading h1
-          h1 the quick brown fox jumps over the lazy dog (default)
-          h1.grey the quick brown fox jumps over the lazy dog (grey)
+          h1 #{message} (default)
+          h1.grey #{message} (grey)
           h1.link
-            +link() the quick brown fox jumps over the lazy dog (link)
-          h1.white.sg the quick brown fox jumps over the lazy dog (white)
+            +link() #{message} (link)
+          h1.white.sg #{message} (white)
 
         .font-group.h2s
           h6.heading h2
-          h2 the quick brown fox jumps over the lazy dog (default)
-          h2.grey the quick brown fox jumps over the lazy dog (grey)
+          h2 #{message} (default)
+          h2.grey #{message} (grey)
           h2.link 
-            +link() the quick brown fox jumps over the lazy dog (link)
-          h2.white.sg the quick brown fox jumps over the lazy dog (white)
+            +link() #{message} (link)
+          h2.white.sg #{message} (white)
 
         .font-group.h3s
           h6.heading h3
-          h3 the quick brown fox jumps over the lazy dog (default)
-          h3.white.sg the quick brown fox jumps over the lazy dog (white)
+          h3 #{message} (default)
+          h3.white.sg #{message} (white)
 
         .font-group.h4s
           h6.heading h4
-          h4 the quick brown fox jumps over the lazy dog (default)
-          h4.grey the quick brown fox jumps over the lazy dog (grey)
+          h4 #{message} (default)
+          h4.grey #{message} (grey)
           h4.link 
-            +link() the quick brown fox jumps over the lazy dog (link)
-          h4.white.sg the quick brown fox jumps over the lazy dog (white)
+            +link() #{message} (link)
+          h4.white.sg #{message} (white)
 
         .font-group.h5s
           h6.heading h5
-          h5.grey the quick brown fox jumps over the lazy dog (grey)
+          h5.grey #{message} (grey)
           h5.link 
-            +link() the quick brown fox jumps over the lazy dog (link)
-          h5.white.sg the quick brown fox jumps over the lazy dog (white)
+            +link() #{message} (link)
+          h5.white.sg #{message} (white)
 
         .font-group.h6s
           h6.heading h6
-          h6.grey the quick brown fox jumps over the lazy dog (grey)
+          h6.grey #{message} (grey)
           h6.link
-            +link() the quick brown fox jumps over the lazy dog (link)
-          h6.white.sg the quick brown fox jumps over the lazy dog (white)
+            +link() #{message} (link)
+          h6.white.sg #{message} (white)
 
         //- Paragraphs
         .font-group.paragraphs
-          h6.heading Paragraph (body)
-          p the quick brown fox jumps over the lazy dog (default)
-          p.bold the quick brown fox jumps over the lazy dog (bold)
+          h6.heading Paragraph (body) 
+          p #{message} (default)
+          p.bold #{message} (bold)
           p.link 
-            +link() the quick brown fox jumps over the lazy dog (link)
-          p.white.sg the quick brown fox jumps over the lazy dog (white)
+            +link() #{message} (link)
+          p.white.sg #{message} (white)
 
         .font-group.paragraphs
-          h6.heading Paragraph (large)
-          p.large the quick brown fox jumps over the lazy dog (default)
+          h6.heading Paragraph (large)  p.large
+          p.large #{message} (default)
 
         .font-group.paragraphs
-          h6.heading Paragraph (small)
-          p.small the quick brown fox jumps over the lazy dog (default)
-          p.bold.small the quick brown fox jumps over the lazy dog (bold)
-          p.link.small the quick brown fox jumps over the lazy dog (link)
-          p.white.sg.small the quick brown fox jumps over the lazy dog (white)
+          h6.heading Paragraph (small)  p.small
+          p.small #{message} (default)
+          p.bold.small #{message} (bold)
+          p.link.small
+            +link() #{message} (link)
+          p.white.sg.small #{message} (white)
 
         .font-group.paragraphs
-          h6.heading Paragraph (extra-small)
-          p.extra-small the quick brown fox jumps over the lazy dog (default)
-          p.white.sg.extra-small the quick brown fox jumps over the lazy dog (white)
+          h6.heading Paragraph (extra-small)  p.extra-small
+          p.extra-small #{message} (default)
+          p.white.sg.extra-small #{message} (white)
 
         //- Navigation
         .font-group.navigation
-          h6.heading Navigation (contextual)
-          h6.nav-context the quick brown fox jumps over the lazy dog (default)
-          h6.nav-context.active the quick brown fox jumps over the lazy dog (active)
-          h6.nav-context.disabled the quick brown fox jumps over the lazy dog (disabled)
+          h6.heading Navigation (contextual)  h6.nav-context
+          h6.nav-context #{message} (default)
+          h6.nav-context.active #{message} (active)
+          h6.nav-context.disabled #{message} (disabled)
 
         .font-group.navigation
-          h6.heading Navigation (header)
-          h6.nav-header the quick brown fox jumps over the lazy dog (default)
-          h6.nav-header.active the quick brown fox jumps over the lazy dog (active)
+          h6.heading Navigation (header)  h6.nav-header
+          h6.nav-header
+            +link() #{message} (link)
+          h6.nav-header.active #{message} (active)
 
         .font-group.navigation
-          h6.heading Navigation (tab)
-          h6.nav-tab the quick brown fox jumps over the lazy dog (inactive)
-          h6.nav-tab.active the quick brown fox jumps over the lazy dog (active)
+          h6.heading Navigation (tab)  h6.nav-tab
+          h6.nav-tab #{message} (inactive)
+          h6.nav-tab.active #{message} (active)
 
         //- Forms
         .font-group.forms
-          h6.heading Forms (button label)
-          h6.button-label Button Label (grey)
-          h6.button-label.link
+          h6.heading Forms (button label)  h6.form-btn-label
+          h6.form-btn-label Button Label (grey)
+          h6.form-btn-label.link
             +link() Button Label (link)
-          h6.button-label.inverse Button Label (inverse)
+          h6.form-btn-label.inverse Button Label (inverse)
 
         .font-group.forms
-          h6.heading Forms (button title)
-          h6.button-title Button Title (grey)
-          h6.button-title.inverse Button Title (inverse)
+          h6.heading Forms (button title)  h6.form-btn-title
+          h6.form-btn-title Button Title (grey)
+          h6.form-btn-title.inverse Button Title (inverse)
 
         .font-group.forms
-          h6.heading Forms (content)
+          h6.heading Forms (content)  h6.form-content
           h6.form-content.grey Form Content (grey)
           h6.form-content.error Form Content (error)
           h6.form-content.placeholder Form Content (placeholder)
           h6.form-content.white.sg Form Content (white)
 
         .font-group.forms
-          h6.heading Forms (description)
-          h6.form-description.grey Form Content (grey)
-          h6.form-description.error Form Content (error)
-          h6.form-description.white.sg Form Content (white)
-          
+          h6.heading Forms (description)  h6.form-description
+          h6.form-description.grey Form Description (grey)
+          h6.form-description.error Form Description (error)
+          h6.form-description.white.sg Form Description (white)
+
+        .font-group.forms
+          h6.heading Forms (label)  h6.form-label
+          h6.form-label.grey Form Label (grey)
+          h6.form-label.active Form Label (active)
+          h6.form-label.error Form Label (error)
+          h6.form-label.light-grey Form Label (light grey)
+          h6.form-label.white.sg Form Label (white)
+
+        .font-group.subtitles
+          h6.heading Subtitle  h6.subtitle
+          h6.subtitle.grey SUBTITLE (GREY) 
+          h6.subtitle.light-grey SUBTITLE (LIGHT GREY)
+          h6.subtitle.white.sg SUBTITLE (WHITE)
+
+        .font-group.icons
+          h6.heading Icons (Font Awesome 5 Pro)
+          h6.icon.icon-blue
+            i.fas.fa-calendar-alt
+            i.fas.fa-anchor
+            i.fas.fa-atom
+            span (icon blue)
+          h6.icon.icon-grey
+            i.fas.fa-calendar-alt
+            i.fas.fa-anchor
+            i.fas.fa-atom
+            span (icon grey)
+          h6.icon.icon-nav
+            i.fas.fa-calendar-alt
+            i.fas.fa-anchor
+            i.fas.fa-atom
+            span (icon nav)
+          h6.icon.icon-white.sg
+            i.fas.fa-calendar-alt
+            i.fas.fa-anchor
+            i.fas.fa-atom
+            span (icon white)
 

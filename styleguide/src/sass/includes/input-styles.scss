@@ -1,0 +1,121 @@
+/* Form Elements */
+.form-group{
+	margin-bottom: 16px;
+	&:last-of-type{
+		margin-bottom: 0;
+	}
+
+	/* Text Field */
+	label.form-label{
+		color: $neutral-grey1;
+		font-family: $font-roboto;
+		font-weight: $bold-weight;
+		font-size: 16px;
+		line-height: 28px;
+		margin-bottom: 4px;
+		&.active{
+			color: $primary-blue3;
+		}
+		&.disabled{
+			color: $neutral-grey1;
+			opacity: .5;
+		}
+	}
+	input.form-control{
+		color: $neutral-grey1;
+		font-family: $font-roboto;
+		font-weight: $normal-weight;
+		height: 44px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		&.sg{
+			max-width: 280px;
+		}
+		&::placeholder{
+			// color: $neutral-grey2;
+			color: #979797;
+		}
+		&:placeholder-shown{
+			//- Styles for the 'input' IF/WHEN there is a placeholder showing
+		}
+		&:focus{
+			outline:0;
+			box-shadow: none;
+			color: $primary-blue3;
+		}
+
+	}
+	.form-description{
+		color: $neutral-grey1;
+		font-weight: $normal-weight;
+		margin-top: 6px;
+		font-size: 16px;
+		line-height: 24px;
+		&.disabled{
+			opacity: .5;
+		}
+	}
+
+	/* Text Area */
+	textarea{
+		padding: 10px 12px;
+		&.sg{
+			max-width: 280px;
+		}
+		&:focus, &:active{
+			outline: 0;
+			box-shadow: none;
+			color: $primary-blue3;
+		}
+	}
+
+
+	/* Errors */
+	&.error{
+		label{
+			color: $secondary-red;
+		}
+		input{
+			border-color: $secondary-red;
+			color: $secondary-red;
+			&:focus{
+				color: $secondary-red;
+				color: $primary-blue3;
+			}
+			&:focus + label{
+				color: $secondary-red;
+			}
+			&::placeholder{
+				color: $secondary-red;
+			}
+		}
+		.form-description{
+			color: $secondary-red;
+		}
+		textarea{
+			border-color: $secondary-red;
+			color: $secondary-red;
+			&:focus{
+				color: $primary-blue3;
+			}
+			&::placeholder{
+				color: $secondary-red;
+			}
+		}
+	}
+}
+
+/* Style Guide Styles ONLY : Input Fields */
+#sg-inputs{
+
+	.input-field-groups, .text-area-groups{
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+		border-bottom: solid 1px #ccc;
+	}
+}
+/* END : Style Guide Styles : Input Fields */
+
+
+
+

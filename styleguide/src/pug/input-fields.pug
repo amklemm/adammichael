@@ -1,0 +1,45 @@
+//- Extending from the main template :: base.jade
+extends layouts/base.pug
+
+
+//- Page Content
+block content
+	div(id="sg-content")
+		.page(id="sg-inputs")
+			.inner
+				.sg-heading.sg
+					h1.grey Input Fields
+
+
+				.input-field-groups
+					.form-group
+						label(for="example-input-1").form-label Default Input
+						input(type="text" id="example-input-1" placeholder="Text" aria-descripbedby="input-description-1").form-control.sg
+						h6(id="input-description-1").form-description.grey Description ...
+
+					.form-group
+						label(for="example-input-1b").form-label Default Input
+						input(type="text" id="example-input-1b" placeholder="Text" aria-descripbedby="input-description-1b").form-control.sg
+						h6(id="input-description-1b").form-description.grey Description ...
+
+					.form-group
+						label(for="example-input-2").form-label.light-grey.disabled Disabled
+						input(type="text" id="example-input-2" placeholder="Text" aria-descripbedby="input-description-2" disabled).form-control.sg
+						h6(id="input-description-2").form-description.grey.disabled Description ...
+
+					.form-group.error
+						label(for="example-input-3").form-label Error on Input
+						input(type="text" id="example-input-3" placeholder="Text" aria-descripbedby="input-description-3").form-control.sg
+						
+						h6(id="input-description-3").form-description.grey Description ...
+
+				.text-area-groups
+					.form-group
+						label(for="example-textarea-1").form-label Default Textarea
+						textarea(id="example-textarea-1" rows="3" placeholder="Input Text Here").form-control.sg
+
+					.form-group.error
+						label(for="example-textarea-2").form-label Error on Input
+						textarea(id="example-textarea-2" rows="3" placeholder="Input Text Here").form-control.sg
+							
+

@@ -1,4 +1,4 @@
-//- Typography
+/* Typography */
 a.anchor{
 	color: $primary-blue4;
 }
@@ -53,104 +53,146 @@ h6{
 	font-weight: $bold-weight;
 	font-size: 20px;
 	line-height: 28px;
-
-	&.nav-context{
-		color: $neutral-grey1;
-		font-weight: $light-weight;
-		font-size: 16px;
-		line-height: 24px;
-		&.active{
-			color: $primary-blue2;
-			font-weight: $bold-weight;
-		}
-		&.disabled{
-			color: $neutral-grey2;
-		}
+}
+.nav-context{
+	color: $neutral-grey1;
+	font-weight: $light-weight;
+	font-size: 16px;
+	line-height: 24px;
+	&.active{
+		color: $primary-blue2;
+		font-weight: $bold-weight;
 	}
-	&.nav-header{
+	&.disabled{
+		color: $neutral-grey2;
+	}
+}
+.nav-header{
+	color: $primary-blue4;
+	font-weight: $normal-weight;
+	font-size: 16px;
+	line-height: 20px;
+	&.active{
+		color: $primary-blue2;
+	}
+}
+.nav-tab{
+	color: $neutral-grey4;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: $bold-weight;
+	&.active{
+		color: $primary-blue2;
+	}
+}
+
+.form-btn-label{
+	color: $neutral-grey1;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: $normal-weight;
+	&.link{
 		color: $primary-blue4;
-		font-weight: $normal-weight;
-		font-size: 16px;
-		line-height: 20px;
-		&.active{
-			color: $primary-blue2;
-		}
 	}
-	&.nav-tab{
-		color: $neutral-grey4;
-		font-size: 16px;
-		line-height: 24px;
-		font-weight: $bold-weight;
-		&.active{
-			color: $primary-blue2;
-		}
+	&.inverse{
+		color: $white;
+		background-color: $black;
+		display: inline-block;
 	}
-
-	&.button-label{
+}
+.form-btn-title{
+	color: $neutral-grey1;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: $bold-weight;
+	&.inverse{
+		color: $white;
+		background-color: $black;
+		display: inline-block;
+	}
+}
+.form-content{
+	font-weight: $normal-weight;
+	font-size: 16px;
+	line-height: 24px;
+	&.grey{
 		color: $neutral-grey1;
-		font-size: 16px;
-		line-height: 24px;
-		font-weight: $normal-weight;
-		&.link{
-			color: $primary-blue4;
-		}
-		&.inverse{
-			color: $white;
-			background-color: $black;
+	}
+	&.error{
+		color: $secondary-red;
+	}
+	&.placeholder{
+		color: $neutral-grey2;
+	}
+	&.white{
+		color: $white;
+		&.sg{
+			background: $black;
 			display: inline-block;
-		}
-	}
-	&.button-title{
-		color: $neutral-grey1;
-		font-size: 16px;
-		line-height: 20px;
-		font-weight: $bold-weight;
-		&.inverse{
-			color: $white;
-			background-color: $black;
-			display: inline-block;
-		}
-	}
-	&.form-content{
-		font-weight: $normal-weight;
-		font-size: 16px;
-		line-height: 24px;
-		&.grey{
-			color: $neutral-grey1;
-		}
-		&.error{
-			color: $secondary-red;
-		}
-		&.placeholder{
-			color: $neutral-grey2;
-		}
-		&.white{
-			color: $white;
-			&.sg{
-				background: $black;
-				display: inline-block;
-			}
-		}
-	}
-	&.form-description{
-		font-weight: $normal-weight;
-		font-size: 16px;
-		line-height: 24px;
-		&.grey{
-			color: $neutral-grey1;
-		}
-		&.error{
-			color: $secondary-red;
-		}
-		&.white{
-			color: $white;
-			&.sg{
-				background: $black;
-				display: inline-block;
-			}
 		}
 	}
 }
+.form-description{
+	font-weight: $normal-weight;
+	font-size: 16px;
+	line-height: 24px;
+	&.grey{
+		color: $neutral-grey1;
+	}
+	&.error{
+		color: $secondary-red;
+	}
+	&.white{
+		color: $white;
+		&.sg{
+			background: $black;
+			display: inline-block;
+		}
+	}
+}
+.form-label{
+	font-weight: $bold-weight;
+	font-size: 16px;
+	line-height: 20px;
+	&.grey{
+		color: $neutral-grey1;
+	}
+	&.active{
+		color: $primary-blue3;
+	}
+	&.error{
+		color: $secondary-red;
+	}
+	&.light-grey{
+		color: $neutral-grey2;
+	}
+	&.white{
+		color: $white;
+		&.sg{
+			background: $black;
+			display: inline-block;
+		}
+	}
+}
+.subtitle{
+	font-weight: $bold-weight;
+	font-size: 16px;
+	line-height: 28px;
+	&.grey{
+		color: $neutral-grey1;
+	}
+	&.light-grey{
+		color: $neutral-grey2;
+	}
+	&.white{
+		color: $white;
+		&.sg{
+			background: $black;
+			display: inline-block;
+		}
+	}
+}
+
 
 
 p{
@@ -179,12 +221,7 @@ p{
 			display: inline-block;	
 		}
 	}
-	&.bold{
-		font-weight: $bold-weight;
-	}
-	span.bold{
-		font-weight: $bold-weight;
-	}
+	
 	&.large{
 		font-size: 22px;
 		line-height: 36px;
@@ -213,30 +250,51 @@ p{
 		line-height: 20px;
 		font-weight: $normal-weight;
 	}
+	&.bold{
+		font-weight: $bold-weight;
+	}
+	span.bold{
+		font-weight: $bold-weight;
+	}
 }
 
 
-// Style Guide Styles Only
-#typography{
+
+
+
+
+
+/* Style Guide Styles Only : Typography */
+#sg-typography{
 	.c-white.bg-black{
 		display: inline-block;		
 	}
-	.font-group > h1, .font-group > h2, .font-group > h3, .font-group > h4, .font-group > h5, .font-group > h6, .font-group > p{
-		margin-bottom: 12px;
-		&:last-of-type{
-			margin-bottom: 0;
-		}
-	}
+	// .font-group > h1, .font-group > h2, .font-group > h3, .font-group > h4, .font-group > h5, .font-group > h6, .font-group > p{
+	// 	margin-bottom: 8px;
+	// 	&:last-of-type{
+	// 		margin-bottom: 0;
+	// 	}
+	// }
+
 	.font-group{
 		margin-bottom: 40px;
-
+		h1,h2,h3,h4,h5,h6,p{
+			margin-bottom: 8px;
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
 		h6.heading{
 			padding-bottom: 5px;
 			margin-bottom: 12px;
 			border-bottom: solid 1px $greyc;
 		}
-	}	
-}
+		.icon i{
+			margin-right: 10px;
+		}
+	}
 
+}
+/* END Style Guide Styles : Typography */
 
 
