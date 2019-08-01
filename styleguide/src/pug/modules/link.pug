@@ -1,0 +1,13 @@
+mixin link(spec)
+	- spec = spec || {}
+	- spec.class = spec.class || ''
+	- spec.href = spec.href || '#'
+	- spec.target = spec.target || '_self'
+	- spec.text = spec.text || 'Default Link'
+
+
+	a.anchor(class= spec.class target= spec.target href= spec.href)&attributes(attributes)
+		if block
+			block
+		else
+			!= spec.text

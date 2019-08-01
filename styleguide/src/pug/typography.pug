@@ -1,0 +1,127 @@
+//- Extending from the main template :: base.jade
+extends layouts/base.pug
+
+
+//- Page Content
+block content
+  div(id="content")
+    .page(id="typography")
+      .inner
+        .heading
+          h2 Typography
+          p.
+            The VBES experience leverages 'Roboto' and 'Roboto Slab' web fonts, failing over to 'Helvetic' and 'Times'.
+
+        //- Headings
+        .font-group.h1s
+          h6.heading h1
+          h1 the quick brown fox jumps over the lazy dog (default)
+          h1.grey the quick brown fox jumps over the lazy dog (grey)
+          h1.link
+            +link() the quick brown fox jumps over the lazy dog (link)
+          h1.white.sg the quick brown fox jumps over the lazy dog (white)
+
+        .font-group.h2s
+          h6.heading h2
+          h2 the quick brown fox jumps over the lazy dog (default)
+          h2.grey the quick brown fox jumps over the lazy dog (grey)
+          h2.link 
+            +link() the quick brown fox jumps over the lazy dog (link)
+          h2.white.sg the quick brown fox jumps over the lazy dog (white)
+
+        .font-group.h3s
+          h6.heading h3
+          h3 the quick brown fox jumps over the lazy dog (default)
+          h3.white.sg the quick brown fox jumps over the lazy dog (white)
+
+        .font-group.h4s
+          h6.heading h4
+          h4 the quick brown fox jumps over the lazy dog (default)
+          h4.grey the quick brown fox jumps over the lazy dog (grey)
+          h4.link 
+            +link() the quick brown fox jumps over the lazy dog (link)
+          h4.white.sg the quick brown fox jumps over the lazy dog (white)
+
+        .font-group.h5s
+          h6.heading h5
+          h5.grey the quick brown fox jumps over the lazy dog (grey)
+          h5.link 
+            +link() the quick brown fox jumps over the lazy dog (link)
+          h5.white.sg the quick brown fox jumps over the lazy dog (white)
+
+        .font-group.h6s
+          h6.heading h6
+          h6.grey the quick brown fox jumps over the lazy dog (grey)
+          h6.link
+            +link() the quick brown fox jumps over the lazy dog (link)
+          h6.white.sg the quick brown fox jumps over the lazy dog (white)
+
+        //- Paragraphs
+        .font-group.paragraphs
+          h6.heading Paragraph (body)
+          p the quick brown fox jumps over the lazy dog (default)
+          p.bold the quick brown fox jumps over the lazy dog (bold)
+          p.link 
+            +link() the quick brown fox jumps over the lazy dog (link)
+          p.white.sg the quick brown fox jumps over the lazy dog (white)
+
+        .font-group.paragraphs
+          h6.heading Paragraph (large)
+          p.large the quick brown fox jumps over the lazy dog (default)
+
+        .font-group.paragraphs
+          h6.heading Paragraph (small)
+          p.small the quick brown fox jumps over the lazy dog (default)
+          p.bold.small the quick brown fox jumps over the lazy dog (bold)
+          p.link.small the quick brown fox jumps over the lazy dog (link)
+          p.white.sg.small the quick brown fox jumps over the lazy dog (white)
+
+        .font-group.paragraphs
+          h6.heading Paragraph (extra-small)
+          p.extra-small the quick brown fox jumps over the lazy dog (default)
+          p.white.sg.extra-small the quick brown fox jumps over the lazy dog (white)
+
+        //- Navigation
+        .font-group.navigation
+          h6.heading Navigation (contextual)
+          h6.nav-context the quick brown fox jumps over the lazy dog (default)
+          h6.nav-context.active the quick brown fox jumps over the lazy dog (active)
+          h6.nav-context.disabled the quick brown fox jumps over the lazy dog (disabled)
+
+        .font-group.navigation
+          h6.heading Navigation (header)
+          h6.nav-header the quick brown fox jumps over the lazy dog (default)
+          h6.nav-header.active the quick brown fox jumps over the lazy dog (active)
+
+        .font-group.navigation
+          h6.heading Navigation (tab)
+          h6.nav-tab the quick brown fox jumps over the lazy dog (inactive)
+          h6.nav-tab.active the quick brown fox jumps over the lazy dog (active)
+
+        //- Forms
+        .font-group.forms
+          h6.heading Forms (button label)
+          h6.button-label Button Label (grey)
+          h6.button-label.link
+            +link() Button Label (link)
+          h6.button-label.inverse Button Label (inverse)
+
+        .font-group.forms
+          h6.heading Forms (button title)
+          h6.button-title Button Title (grey)
+          h6.button-title.inverse Button Title (inverse)
+
+        .font-group.forms
+          h6.heading Forms (content)
+          h6.form-content.grey Form Content (grey)
+          h6.form-content.error Form Content (error)
+          h6.form-content.placeholder Form Content (placeholder)
+          h6.form-content.white.sg Form Content (white)
+
+        .font-group.forms
+          h6.heading Forms (description)
+          h6.form-description.grey Form Content (grey)
+          h6.form-description.error Form Content (error)
+          h6.form-description.white.sg Form Content (white)
+          
+

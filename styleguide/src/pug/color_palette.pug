@@ -1,0 +1,126 @@
+//- Extending from the main template :: base.jade
+extends layouts/base.pug
+
+
+
+//- Page Content
+block content
+  div(id="content")
+    .page(id="color-palette")
+      .inner
+        .heading
+          h2 Color Palette
+          p.
+            The VBES palette has been developed for optimal legibility, accessibility, and consistency withe the Aon Brand.
+
+        .colors.primary
+          h6.grey Primary
+          ul.clearfix
+            li.color
+              .inner
+                .circle.bg-primary-blue1
+                .values
+                  p.hex #001B2D
+                  p.rgb (0, 27, 45)
+                .use
+                  p.class .c-primary-blue1
+                  p.class .bg-primary-blue1
+
+            li.color
+              .inner
+                .circle.bg-primary-blue2
+                .values
+                  p.hex #01416E
+                  p.rgb (1, 65, 110)
+                .use
+                  p.class .c-primary-blue2
+                  p.class .bg-primary-blue2
+
+            li.color
+              .inner
+                .circle.bg-primary-blue3
+                .values
+                  p.hex #015FA1
+                  p.rgb (0, 24, 161)
+                .use
+                  p.class .c-primary-blue3
+                  p.class .bg-primary-blue3
+
+            li.color
+              .inner
+                .circle.bg-primary-blue4
+                .values
+                  p.hex #028EB2
+                  p.rgb (2, 142, 178)
+                .use
+                  p.class .c-primary-blue4
+                  p.class .bg-primary-blue4
+
+            li.color
+              .inner
+                .circle.bg-primary-blue5
+                .values
+                  p.hex #4CBAEB
+                  p.rgb (76, 186, 235)
+                .use
+                  p.class .c-primary-blue5
+                  p.class .bg-primary-blue5
+
+        .colors.secondary
+          h6.grey Secondary
+          ul.clearfix
+            li.color
+              .inner
+                .circle.bg-secondary-red
+                .values
+                  p.hex #BF4C4A
+                  p.rgb (191, 76, 74)
+
+            li.color
+              .inner
+                .circle.bg-secondary-green
+                .values
+                  p.hex #7AB800
+                  p.rgb (122, 184, 0)
+
+            li.color
+              .inner
+                .circle.bg-secondary-yellow
+                .values
+                  p.hex #F0A800
+                  p.rgb (240, 168, 0)
+
+        .colors.secondary
+          h6.grey Neutrals
+          ul.clearfix
+            li.color
+              .inner
+                .circle.bg-neutral-grey1
+                .values
+                  p.hex #4C4D4F
+                  p.rgb (76, 77, 79)
+
+            li.color
+              .inner
+                .circle.bg-neutral-grey2
+                .values
+                  p.hex #9B9B9B
+                  p.rgb (155, 155, 155)
+
+            li.color
+              .inner
+                .circle.bg-neutral-grey3
+                .values
+                  p.hex #C0C0C0
+                  p.rgb (192, 192, 192)
+
+            li.color
+              .inner
+                .circle.bg-neutral-grey4
+                .values
+                  p.hex #E4E4E4
+                  p.rgb (228, 228, 228)
+
+
+
+      

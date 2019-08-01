@@ -1,0 +1,24 @@
+mixin text-block(spec)
+	- spec = spec || {}
+	- spec.class = spec.class || ''
+
+	section.text-block(class= spec.class)
+		.inner
+			if block
+				block
+			else
+				+heading-block()
+					h3 Headline
+					h4 Sub Headline
+				p.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				+link(href="#" id="test-id").test-class This is a link
+
+
+
+

@@ -1,0 +1,12 @@
+mixin heading-block(spec)
+	- spec = spec || {}
+	- spec.class = spec.class || ''
+
+	section.heading-block(class= spec.class)
+		.inner
+			if block
+				block
+			else
+				h3 Headline
+
+
