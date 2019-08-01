@@ -1,0 +1,459 @@
+#all-1682 {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#all-1682 .form-control[disabled], #all-1682 .form-control[readonly], #all-1682 fieldset[disabled] .form-control {
+  background-color: #dadada;
+}
+#all-1682 .form-control[disabled]::-webkit-input-placeholder {
+  color: #4f576a;
+}
+#all-1682 .form-control[disabled]::-moz-placeholder {
+  color: #4f576a;
+}
+#all-1682 .form-control[disabled]:-ms-input-placeholder {
+  color: #4f576a;
+}
+#all-1682 .form-control[disabled]::placeholder {
+  color: #4f576a;
+}
+#all-1682 button {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  border-spacing: 0;
+  color: #26589F;
+  font-weight: normal;
+  line-height: 1.42rem;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0;
+  background-color: #81bf00;
+  font-size: 21px;
+  line-height: 50px;
+  border-radius: 30px;
+  width: 80%;
+  max-width: 320px;
+  height: 50px;
+  text-align: center;
+  color: #ffffff;
+  margin: 15px auto;
+  display: block;
+}
+#all-1682 p, #all-1682 ol {
+  color: #666666;
+}
+#all-1682 ol {
+  padding-left: 20px;
+}
+#all-1682 a {
+  color: #004887;
+  text-decoration: underline;
+}
+#all-1682 h3, #all-1682 h4 {
+  color: #00a3e0;
+}
+#all-1682 h3 {
+  margin: 0;
+}
+#all-1682 .seo {
+  display: none;
+}
+#all-1682 .super {
+  vertical-align: super;
+  font-size: smaller;
+}
+#all-1682 h3 .super {
+  font-size: small;
+}
+#all-1682 header .container {
+  position: relative;
+}
+#all-1682 header .logo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#all-1682 header .logo img {
+  max-width: 100%;
+}
+#all-1682 header .cta {
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+#all-1682 header .cta p {
+  margin-bottom: 0;
+}
+#all-1682 header .banner {
+  background-color: #00a3e0;
+}
+#all-1682 header .banner .tag {
+  margin: 50px 0;
+  color: #ffffff;
+  font-weight: 400;
+}
+#all-1682 header .banner .tag h2 {
+  font-size: 36px;
+}
+#all-1682 header .banner .tag p {
+  font-size: 24px;
+  color: #ffffff;
+}
+#all-1682 header .banner .graphic {
+  position: absolute;
+  right: 10px;
+  bottom: -30px;
+  width: 205px;
+}
+#all-1682 header .cloud {
+  position: absolute;
+  bottom: -35px;
+  left: -60px;
+  z-index: -1;
+}
+#all-1682 .chart {
+  border: solid 1px #a7a9ac;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 15px;
+  padding-bottom: 45px;
+}
+#all-1682 .chart .key {
+  width: 40%;
+  display: block;
+  float: left;
+}
+#all-1682 .chart .key .box {
+  width: 20px;
+  height: 30px;
+  background-color: #636466;
+  float: left;
+  margin-right: 8px;
+}
+#all-1682 .chart .key h6 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 10px;
+  overflow: hidden;
+}
+#all-1682 .chart .key .national-average {
+  display: block;
+}
+#all-1682 .chart .key .national-average .box {
+  margin-bottom: 15px;
+}
+#all-1682 .chart .key .alliant-savings {
+  clear: both;
+}
+#all-1682 .chart .key .alliant-savings .box {
+  background-color: #00a3e0;
+}
+#all-1682 .chart .key .alliant-savings h6 {
+  color: #00a3e0;
+}
+#all-1682 .chart .graph {
+  position: relative;
+  width: 58%;
+  border-left: solid 1px #a7a9ac;
+  border-bottom: solid 1px #a7a9ac;
+  display: inline-block;
+  height: 150px;
+}
+#all-1682 .chart .graph .bar {
+  width: 40%;
+  height: 0px;
+  background-color: #636466;
+  position: absolute;
+  bottom: 0;
+}
+#all-1682 .chart .graph h6 {
+  position: absolute;
+  bottom: -40px;
+  font-weight: 700;
+  font-size: 16px;
+}
+#all-1682 .chart .graph .national-average .bar {
+  left: 5%;
+}
+#all-1682 .chart .graph .national-average h6 {
+  left: 18%;
+}
+#all-1682 .chart .graph .alliant-savings .bar {
+  left: 50%;
+  background-color: #00a3e0;
+}
+#all-1682 .chart .graph .alliant-savings h6 {
+  left: 63%;
+  color: #00a3e0;
+}
+#all-1682 .chart .graph .alliant-savings .results {
+  position: relative;
+  width: 40%;
+  left: 49.5%;
+  top: 20px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0;
+}
+#all-1682 .chart .graph .alliant-savings .results h4 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+#all-1682 .chart .graph .alliant-savings .results p {
+  width: 100%;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+#all-1682 .chart .graph .alliant-savings .results i {
+  font-size: 28px;
+  font-weight: 700;
+}
+#all-1682 .main {
+  overflow: hidden;
+  background-image: url(../images/money-man.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding-bottom: 340px;
+  margin-top: 50px;
+}
+#all-1682 .main .col-sm-6:first-child {
+  padding-left: 0;
+}
+#all-1682 .main .col-sm-6:last-child {
+  padding-right: 0;
+}
+#all-1682 .main .content {
+  position: relative;
+}
+#all-1682 .main .content p {
+  margin-bottom: 20px;
+}
+#all-1682 .main .content .clouds {
+  width: 402px;
+  position: absolute;
+  right: 0;
+}
+#all-1682 .main .form {
+  border: solid 1px #636466;
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: #4f576a;
+}
+#all-1682 .main .form .required-label p.legal {
+  color: #4f576a;
+}
+#all-1682 .main .form p.legal {
+  font-size: 12px;
+}
+#all-1682 .main .form p:last-child {
+  margin-bottom: 0;
+}
+#all-1682 .main .form ol li {
+  margin-bottom: 5px;
+}
+#all-1682 .main .form h4 {
+  font-size: 24px;
+}
+#all-1682 .main .form h5 {
+  text-transform: uppercase;
+}
+#all-1682 .main .form form h4 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+#all-1682 .main .form input {
+  border: solid 1px #999999;
+}
+#all-1682 .main .form .form-control[disabled] {
+  background-color: #greya !important;
+}
+#all-1682 .main .form .cloud {
+  position: absolute;
+  right: -77px;
+  top: 70px;
+  z-index: -1;
+}
+#all-1682 .main .buckets {
+  margin-top: 80px;
+}
+#all-1682 .main .bucket {
+  padding: 10px;
+}
+#all-1682 .main .bucket:first-child {
+  padding-left: 0;
+}
+#all-1682 .main .bucket:last-child {
+  padding-right: 0;
+}
+#all-1682 .main .bucket:nth-child(2) {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#all-1682 .main .bucket .inner {
+  position: relative;
+  border: solid 1px #a7a9ac;
+  border-radius: 5px;
+}
+#all-1682 .main .bucket .icon {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+}
+#all-1682 .main .bucket .icon.phone {
+  margin-left: -17px;
+}
+#all-1682 .main .bucket .icon.money {
+  margin-left: -30px;
+}
+#all-1682 .main .bucket .icon.key {
+  margin-left: -32px;
+}
+#all-1682 .main .bucket .info {
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#all-1682 .main .bucket .info h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 80%;
+}
+#all-1682 .main .bucket .info p {
+  font-size: 14px;
+}
+#all-1682 .main .bucket .info p:last-child {
+  margin-bottom: 20px;
+}
+#all-1682 footer {
+  background-color: #004887;
+  font-size: 12px;
+  font-weight: 300;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+#all-1682 footer a {
+  color: #ffffff;
+}
+#all-1682 footer ol {
+  list-style-position: inside;
+  padding-left: 0;
+}
+#all-1682 footer p, #all-1682 footer ol {
+  color: #ffffff;
+}
+#all-1682 footer li, #all-1682 footer p {
+  margin-bottom: 15px;
+}
+#all-1682 footer img {
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #all-1682 .container {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #all-1682 .chart .graph .alliant-savings .results h4 {
+    font-size: 24px;
+  }
+  #all-1682 .chart .key h6 {
+    font-size: 12px;
+  }
+  #all-1682 .chart .graph .alliant-savings h6 {
+    left: 60%;
+  }
+  #all-1682 .chart .graph .national-average h6 {
+    left: 15%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #all-1682 header .banner .tag {
+    margin-bottom: 150px;
+  }
+  #all-1682 header .banner .graphic {
+    left: 50%;
+    margin-left: -102px;
+  }
+  #all-1682 .col-sm-6 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  #all-1682 .buckets .col-sm-4.bucket {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
+  #all-1682 .buckets .col-sm-4.bucket:last-child {
+    margin-bottom: 0;
+  }
+  #all-1682 .chart .graph .alliant-savings .results h4 {
+    font-size: 28px;
+  }
+  #all-1682 .chart .key h6 {
+    font-size: 14px;
+  }
+  #all-1682 .chart .graph .alliant-savings h6 {
+    left: 64%;
+  }
+  #all-1682 .chart .graph .national-average h6 {
+    left: 19%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #all-1682 header .logo {
+    text-align: center;
+  }
+  #all-1682 header .cta {
+    position: static;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #all-1682 .chart .graph .alliant-savings h6 {
+    left: 61%;
+  }
+  #all-1682 .chart .graph .national-average h6 {
+    left: 16%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #all-1682 .chart .graph .alliant-savings .results h4 {
+    font-size: 24px;
+  }
+  #all-1682 .chart .key h6 {
+    font-size: 12px;
+  }
+  #all-1682 .chart .graph .alliant-savings h6 {
+    left: 60%;
+  }
+  #all-1682 .chart .graph .national-average h6 {
+    left: 15%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #all-1682 .chart .graph .alliant-savings .results h4 {
+    font-size: 20px;
+  }
+  #all-1682 .chart .graph .alliant-savings .results p {
+    font-size: 13px;
+  }
+  #all-1682 .chart .key h6 {
+    font-size: 12px;
+  }
+  #all-1682 .chart .graph .alliant-savings h6 {
+    left: 57%;
+  }
+  #all-1682 .chart .graph .national-average h6 {
+    left: 12%;
+  }
+}

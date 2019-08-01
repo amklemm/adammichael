@@ -1,0 +1,415 @@
+#womens-init {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: #666666;
+}
+#womens-init .container {
+  position: relative;
+}
+#womens-init p {
+  font-size: 16px;
+}
+#womens-init .hlight {
+  color: #ed1c2e;
+}
+#womens-init .strong {
+  font-weight: 600;
+}
+#womens-init h1, #womens-init h2, #womens-init h3, #womens-init h4 {
+  text-transform: uppercase;
+}
+#womens-init a {
+  color: #666666;
+}
+#womens-init .inline-block {
+  display: inline-block;
+}
+#womens-init .normal-case {
+  text-transform: none;
+}
+#womens-init .upper-case {
+  text-transform: uppercase;
+}
+#womens-init .fsize-14 {
+  font-size: 14px;
+}
+#womens-init .fsize-18 {
+  font-size: 18px;
+}
+#womens-init .fsize-21 {
+  font-size: 21px;
+}
+#womens-init .fsize-24 {
+  font-size: 24px;
+}
+#womens-init header {
+  height: 145px;
+  color: #999999;
+  background: #f3f3f3;
+  border-bottom: solid 15px #999999;
+}
+#womens-init header .container {
+  height: 130px;
+  padding-left: 0;
+  padding-right: 0;
+}
+#womens-init header .logo {
+  width: 112px;
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+}
+#womens-init header .tagline {
+  text-align: right;
+  margin-top: 64px;
+}
+#womens-init header .tagline h2 {
+  margin: 0;
+  font-size: 21px;
+}
+#womens-init #main {
+  margin-top: 30px;
+}
+#womens-init #main .main-info .content {
+  padding-right: 0;
+  padding-left: 0;
+}
+#womens-init #main .main-info .heading h3 {
+  color: #999999;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+#womens-init #main .main-info .heading p {
+  width: 80%;
+  margin-bottom: 20px;
+}
+#womens-init #main .enroll-form {
+  border: solid 1px;
+  background-color: #e0e0e0;
+  padding-top: 20px;
+}
+#womens-init #main .enroll-form .logo {
+  border-bottom: solid 1px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+#womens-init #main .enroll-form .logo img {
+  max-width: 100%;
+}
+#womens-init #main .enroll-form .heading {
+  color: #000000;
+}
+#womens-init #main .enroll-form .heading h4 {
+  margin: 0;
+  font-weight: 600;
+}
+#womens-init #main .enroll-form .heading p {
+  width: 100%;
+}
+#womens-init #main .enroll-form .form-elements {
+  margin-top: 20px;
+}
+#womens-init #main .enroll-form .form-elements input {
+  width: 100%;
+  line-height: 26px;
+}
+#womens-init #main .enroll-form .hs_firstname, #womens-init #main .enroll-form .hs_lastname {
+  margin-bottom: 10px;
+}
+#womens-init #main .enroll-form .hs_firstname > label, #womens-init #main .enroll-form .hs_lastname > label {
+  display: none;
+}
+#womens-init #main .enroll-form .hs_choose_session {
+  color: #000000;
+}
+#womens-init #main .enroll-form .hs_choose_session ul {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+#womens-init #main .enroll-form .hs_choose_session ul li label {
+  float: left;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+#womens-init #main .enroll-form .hs_choose_session ul li label input {
+  margin-right: 6px;
+}
+#womens-init #main .enroll-form .hs_choose_session ul li label label {
+  width: inherit;
+}
+#womens-init #main .enroll-form .hs_choose_session ul li label input {
+  width: inherit;
+}
+#womens-init #main .enroll-form .hs_choose_session > label {
+  clear: both;
+}
+#womens-init #main .enroll-form .hs_choose_session label {
+  margin: none !important;
+}
+#womens-init #main .enroll-form .hs_choose_session > .input {
+  margin-top: -5px;
+}
+#womens-init #main .enroll-form .hs_choose_session .hs-form-required {
+  display: none;
+}
+#womens-init #main .enroll-form .hs-error-msgs {
+  padding-left: 0;
+  list-style: none;
+  color: #ed1c2e;
+}
+#womens-init #main .enroll-form .hs_submit {
+  text-align: center;
+}
+#womens-init #main .enroll-form .hs_submit input {
+  background-color: #ed1c2e;
+  color: #FFFFFF;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  width: 60%;
+  height: 32px;
+  margin-top: 10px;
+}
+#womens-init #main .enroll-form .hs_submit input:hover {
+  border: solid 1px #000000;
+}
+#womens-init #main .enroll-form .submitted-message h6 {
+  font-size: 24px;
+  color: #ed1c2e;
+  font-weight: 600;
+}
+#womens-init #main .enroll-form .submitted-message p {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+}
+#womens-init #main .enroll-form .footing {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#womens-init #main .enroll-form .footing img {
+  max-width: 100%;
+}
+#womens-init #main .details {
+  min-height: 330px;
+  background-image: url("http://cdn2.hubspot.net/hubfs/896953/Images/1677/lp/hands-bg.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+#womens-init #main .details p {
+  width: 500%;
+}
+#womens-init #main .details h4 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+#womens-init #main .details h5, #womens-init #main .details p {
+  margin: 0;
+  font-size: 16px;
+}
+#womens-init #main .details h5 {
+  font-weight: 600;
+}
+#womens-init #main .details .row {
+  margin-bottom: 15px;
+}
+#womens-init #main .details .info {
+  padding-left: 0;
+}
+#womens-init #main .opportunities {
+  margin-top: 20px;
+}
+#womens-init #main .opportunities h3 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#womens-init #main .opportunities h4 {
+  font-weight: 600;
+  font-size: 16px;
+}
+#womens-init #main .opportunities h5 {
+  font-weight: 600;
+}
+#womens-init #main .opportunities .info {
+  font-size: 14px;
+}
+#womens-init #main .opportunities .heading {
+  text-align: center;
+}
+#womens-init #main .opportunities .connections {
+  padding-left: 0;
+}
+#womens-init #main .opportunities .mentor-program {
+  padding-right: 0;
+}
+#womens-init #main .opportunities .inner {
+  border: solid 1px #DDDDDD;
+  border-radius: 10px;
+  padding: 20px;
+}
+#womens-init .banner {
+  min-height: 50px;
+  background: #333333;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#womens-init .banner h3 {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+#womens-init footer {
+  min-height: 130px;
+  border-top: solid 1px #999999;
+  padding-top: 20px;
+}
+#womens-init footer ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+}
+#womens-init footer ul li {
+  display: inline-block;
+  margin-left: 5px;
+}
+#womens-init footer ul li:before {
+  content: '|';
+  margin-right: 5px;
+}
+#womens-init footer ul li:first-child:before {
+  content: '';
+}
+#womens-init footer .youtube a:hover {
+  text-decoration: none;
+}
+#womens-init footer .links {
+  line-height: 32px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #womens-init header .container {
+    width: 94%;
+  }
+  #womens-init #main .container {
+    width: 94%;
+  }
+  #womens-init #main .main-info .heading h3 {
+    letter-spacing: 0;
+  }
+  #womens-init #main .main-info .heading p {
+    width: 90%;
+  }
+  #womens-init .opportunities .inner {
+    min-height: 400px;
+  }
+}
+@media only screen and (max-width: 1000px) and (min-width: 880px) {
+  #womens-init #main .main-info .heading h3 {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #womens-init .opportunities .inner {
+    min-height: 450px;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  #womens-init #main .container .main-info .col-sm-9 {
+    width: 70%;
+  }
+  #womens-init #main .container .main-info .col-sm-3 {
+    width: 30%;
+  }
+  #womens-init #main .container .details {
+    background-size: 90%;
+  }
+  #womens-init #main .container .details .col-sm-3 {
+    width: 26%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #womens-init header .tagline {
+    margin-right: 10px;
+  }
+  #womens-init #main .main-info .heading h3 {
+    letter-spacing: 0;
+  }
+  #womens-init #main .main-info .heading p {
+    width: 90%;
+  }
+  #womens-init #main .main-info .details {
+    background-size: 78%;
+  }
+  #womens-init #main .main-info .details .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #womens-init #main .main-info .details .info p {
+    width: 63%;
+  }
+  #womens-init #main .opportunities .col-sm-6 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #womens-init #main .opportunities .connections {
+    margin-bottom: 20px;
+  }
+  #womens-init #main .enroll-form .hs_submit {
+    clear: both;
+  }
+  #womens-init #main .enroll-form .hs_submit .submitButton {
+    width: 240px;
+  }
+  #womens-init #main .enroll-form .footing {
+    text-align: center;
+  }
+  #womens-init .opportunities .inner {
+    min-height: inherit;
+  }
+  #womens-init footer .links, #womens-init footer .address {
+    width: 90%;
+    margin: auto;
+  }
+  #womens-init footer ul li {
+    margin-left: 20px;
+  }
+  #womens-init footer ul li:before {
+    content: ' ';
+  }
+}
+@media only screen and (max-width: 480px) {
+  #womens-init header {
+    height: inherit;
+  }
+  #womens-init header .logo {
+    position: static;
+    margin: auto;
+  }
+  #womens-init header .container {
+    height: inherit;
+  }
+  #womens-init header .tagline {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #womens-init #main .main-info .details {
+    background-image: none;
+  }
+  #womens-init #main .main-info .details .col-xs-3 {
+    width: 30%;
+  }
+  #womens-init #main .main-info .details .col-xs-9 {
+    width: 70%;
+  }
+  #womens-init #main .main-info .details .col-xs-9.info p {
+    width: 100%;
+  }
+}
