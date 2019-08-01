@@ -1,0 +1,16 @@
+.contact a{
+  color: #BE8D8D;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-left: 2px;
+}
+
+
+.contact p{
+	margin-bottom: 10px;
+}
+
+.contact img{
+	width: 50px;
+	margin-top: 10px;
+}

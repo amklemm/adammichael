@@ -1,0 +1,17 @@
+.about img{
+	width: 200px;
+	margin-bottom: 10px;
+}
+.about h3{
+	margin-bottom: 20px;
+}
+
+.about h5{
+	font-size: 18px;
+	letter-spacing: .1px;
+	margin-bottom: 15px;
+}
+
+.about p{
+	line-height: 22px;
+}

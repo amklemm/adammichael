@@ -1,0 +1,79 @@
+.method{
+  /*background: #ddd;*/
+  /*border: solid 2px #bbb;*/
+  width: 900px;
+  width: 100%;
+  margin: auto;
+  /*margin-top: 20px;*/
+}
+.method a, .method a:visited, .method a:active, .method a:focus{
+  color: #333;
+}
+
+.item{
+  width: 300px;
+  height: 300px;
+  display: block;
+  text-align: center;
+  float: left;
+  position: relative;
+  margin-bottom: 6px;
+}
+.inner{
+  border: solid 1px #bbb;
+  height: 100%;
+}
+.content{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 60%;
+}
+
+.method .grid .item .inner img{
+  width: 100%;
+  border: none;
+}
+
+.method .inner{
+  background: #FFFFFF;
+  margin: 2px;
+}
+.method .inner:hover{
+  background: #f3f3f3;
+}
+.rollover{
+  display: none;
+}
+p.rolly{
+  font-size: 30px;
+  font-weight: 500;
+}
+.method h4{
+  margin-top: 0;
+}
+
+
+@media screen and (max-width: 1002px) {
+.method .grid .item{
+  width: 33.333%;
+}
+}
+
+@media screen and (max-width: 700px) {
+.method .grid .item{
+  width: 50%;
+  height: 250px;
+}
+}
+
+
+@media screen and (max-width: 400px) {
+.method .grid .item{
+  width: 100%;
+  height: 200px;
+}
+}
+
+

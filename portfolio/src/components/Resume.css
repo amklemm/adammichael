@@ -1,0 +1,192 @@
+#resumePage.container {
+  max-width: 1050px;
+  margin: auto;
+  margin-bottom: 16px;
+  box-shadow: 2px 3px 10px 2px #BBB;
+  /*background: #E9E5E5;*/
+  background: none;
+  min-height: 400px;
+  font-size: 13px;
+  color: #01BF01;
+  color: black;
+  border: solid 1px #999;
+  /*-webkit-transform: rotate(-0.75deg);*/
+          /*transform: rotate(-0.75deg);*/
+  /*background: #aaa url("./images/paper.jpg") repeat;*/
+  z-index: 1;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+
+#resumePage {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+#resumePage #loader {
+  width: 100px;
+  position: fixed;
+  left: 45%;
+  top: 40%;
+}
+#resumePage #loader img {
+  width: 100%;
+}
+#resumePage .heading {
+  width: 100%;
+  text-align: center;
+}
+#resumePage .heading .adammichaelklemm {
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+#resumePage section {
+  margin-bottom: 50px;
+}
+#resumePage section ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+#resumePage section .phone {
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  margin-bottom: 8px;
+  letter-spacing: 15px;
+}
+#resumePage section .record {
+  position: relative;
+  margin-bottom: 20px;
+}
+#resumePage section .record ul {
+  padding-left: 20px;
+}
+#resumePage section .record .title {
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+  border-bottom: solid 1px;
+}
+#resumePage section .record .date {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#resumePage section h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+#resumePage section a.email {
+  color: #BE8D8D;
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+#resumePage section a.email:hover {
+  color: #555;
+}
+#resumePage section.skills ul {
+  padding-left: 20px;
+
+}
+#resumePage li {
+  list-style: none;
+}
+#resumePage .skills li {
+  list-style: disc;
+}
+.skills li:hover{
+  /*font-size: 16px;
+  font-weight: bold;
+  cursor: default;*/
+}
+#resumePage .highlight:before {
+  content: "- ";
+}
+.nest{
+  margin-left: 20px;
+}
+.subtitle{
+  margin-bottom: 6px;
+}
+
+@media screen and (max-width: 768px) {
+  #resumePage.container {
+    font-size: 12px;
+  }
+  #resumePage .heading .adammichaelklemm {
+    font-size: 34px;
+  }
+  #resumePage section .phone {
+    font-size: 14px;
+    letter-spacing: 14px;
+  }
+  #resumePage section a.email {
+    font-size: 13px;
+  }
+  #resumePage section h4 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 630px) {
+  #resumePage.container {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  #resumePage.container section .record .date {
+    position: static;
+  }
+  #resumePage.container section a.email {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 520px) {
+  #resumePage.container .heading .adammichaelklemm {
+    font-size: 30px;
+  }
+  #resumePage.container section .phone {
+    font-size: 12px;
+    letter-spacing: 11px;
+  }
+  #resumePage.container section a.email {
+    font-size: 11px;
+    letter-spacing: 4px;
+  }
+  #resumePage.container section .record ul {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #resumePage.container {
+    font-size: 10px;
+    margin-top: 110px;
+  }
+  #resumePage.container .heading .adammichaelklemm {
+    font-size: 25px;
+  }
+  #resumePage.container section.skills ul {
+    padding-left: 15px;
+  }
+  #resumePage.container section h4 {
+    font-size: 14px;
+  }
+  #resumePage.container section .phone {
+    font-size: 10px;
+    letter-spacing: 9px;
+  }
+  #resumePage.container section a.email {
+    font-size: 9px;
+    letter-spacing: 4px;
+  }
+  #resumePage.container section .title {
+    font-size: 11px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+  }
+  #resumePage.container section .date {
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,179 @@
+[
+	{
+		"heading" : {
+    		"title": "Adam Michael Klemm",
+    		"phone": "773.558.2970",
+    		"email": "adam.michael.klemm@gmail.com"
+		},
+
+		"objective" : "To secure a position with a reputable company where I can continue to thrive as a Web Developer. My goals consist of staying current with technology, developing cutting-edge web applications and having fun while working with good people.",
+
+		"skills" : [
+			"Outstanding problem solving and very resourceful",
+			"Outstanding ability to stay current with technology",
+			"Expert level HTML5 and CSS3, Jade (html) and SASS (css)",
+			"Responsive Design: Bootstrap, Foundation, Media Queries",
+			"Javascript Automation: Node.js, Yeoman, Grunt, Gulp",
+			"Javascript Client-side: jQuery, Backbone/Marionette, Angular, Underscore, Handlebars, Modernizer and Other JS Libraries",
+			"Javascript Server-side: Node.js Express.js, Socket.io",
+			"PHP/CMS: Proficient with PHP/Wordpress (custom templates) and Other CMS (Teamsite, Hybris, Demandware)",
+			"Database: mySQL, MongoDB, Redis",
+			"Flash Programming: Action-Script 1.0, 3.0 (Games, Banner Ads)",
+			"Web Animation: Flash, SVG, Canvas, GreenSock",
+			"Email: Tabled and inline styled email templates (cross-platform, responsive)",
+			"Applications: Photoshop, Illutrator, Inkscape, InDesign, Flash, etc...",
+			"Platforms: PC, Mac, Linux",
+			"Google Analytics and Other Marketing Tools"
+		],
+
+		"experience" : [
+			{
+				"title" : "Freelance Web Development and Programming",
+				"subtitle" : "Web Development and Programming",
+				"location" : "Chicago, IL",
+				"startDate" : "January 2012",
+				"endDate" : "Present",
+				"locales" : [
+					{
+						"name" : "Motorola",
+						"highlights" : [
+							"Front-End Development (HTML/CSS/Javascript (Backbone / Marionette)",
+							"Demandware CMS"
+						]
+					},
+					{
+						"name" : "Blue Cross / Blue Shield",
+						"highlights" : [
+							"Front-End Development (HTML/CSS/Javascript)",
+							"Teamsite CMS"
+						]
+					},
+					{
+						"name" : "Acquity Group (Accenture)",
+						"highlights" : [
+							"Front-End Development (HTML/CSS/Javascript)",
+							"Back-End Integration (Hybris E-Commerce)",
+							"Email Templates / Marketing"
+						]
+					},
+					{
+						"name" : "Ogilvy & Mather",
+						"highlights" : [
+							"Flash Rich-Media Banners (Google Doubleclick Studio)",
+							"Graphic Design"
+						]
+					},
+					{
+						"name" : "Twoxfour",
+						"highlights" : [
+							"Front-End Development (HTML/CSS/Javascript",
+							"WordPress"
+						]
+					},
+					{
+						"name" : "Jacobs & Clevenger",
+						"highlights" : [
+							"Front-End Development (HTML/CSS/Javascript)",
+							"Landing Page Templates"
+						]
+					},
+					{
+						"name" : "WBEZ 91.5",
+						"highlights" : [
+							"Front-End Development (HTML/CSS/Javascript)",
+							"Landing Page Templates"
+						]
+					},
+					{
+						"name" : "Marian Williams Design",
+						"highlights" : [
+							"Front-End Development (HTML/CSS/Javascript",
+							"WordPress"
+						]
+					},
+					{
+						"name" : "Modern Marketing",
+						"highlights" : [
+							"Custom Templates (WordPress/WooCommerce)",
+							"Custom Blogs (WordPress)"
+						]
+					},
+					{
+						"name" : "Jellyvision Games",
+						"highlights" : [
+							"Email Templates / Marketing",
+							"Front-End Development (HTML/CSS/Javascript)"
+						]
+					}
+				]
+			},
+			{
+				"title" : "Cablecom, USBroadband",
+				"subtitle" : "Web Developer, Graphic Designer and Network Administrator",
+				"location" : "Chicago, IL",
+				"startDate" : "March 2006",
+				"endDate" : "April 2011",
+				"highlights" : [
+					"Designed and built W-ISP(wireless internet service provider) network in Chicago",
+					"Implementation of dynamic and static IP addressing for over 50,000 customers",
+					"Installation of wireless internet equipment",
+					"Troubleshoot and problem solve USBroadband network",
+					"Designed and built a variety of web-based Interfaces using HTML, CSS and Flash",
+					"Designed logos, web graphics and marketing material",
+					"Implementation of VOIP (voice over IP) in commercial applications"
+				]
+			},
+			{
+				"title" : "Briljent",
+				"subtitle" : "Graphic Designer, Application Developer",
+				"location" : "Fort Wayne, IN",
+				"startDate" : "March 2005",
+				"endDate" : "November 2005",
+				"highlights" : [
+					"Developed instruction manuals and user guides",
+					"Developed flash-based instruction applications for students",
+					"Various graphic design and website development"
+				]
+			},
+			{
+				"title" : "Lincoln FP",
+				"subtitle" : "Graphic Designer, Web Developer",
+				"location" : "Fort Wayne, IN",
+				"startDate" : "January 2002",
+				"endDate" : "January 2005",
+				"highlights" : [
+					"Designed, developed and maintained websites for over 2 dozen sites",
+					"Developed portal utilizing ColdFusion allowing sales team to track sales data",
+					"Flash programming and interactive web applications",
+					"Designed and produced marketing material"
+				]
+			},
+			{
+				"title" : "All American Homes",
+				"subtitle" : "Graphic Designer, Web Developer, Network Assistant",
+				"location" : "Decatur, IN",
+				"startDate" : "August 1999",
+				"endDate" : "October 2001",
+				"highlights" : [
+					"Designed and produced marketing material",
+					"Developed websites",
+					"Developed sales tools using web-based interfaces",
+					"Assist in company-wide networking in Indiana, Ohio, Tennessee and North Carolina"
+				]
+			}
+
+
+		],
+
+		"education" : [
+			"Bachelor’s Degree – Industrial Design, ITT Technical, Fort Wayne, IN June, 1999",
+			"Associate’s Degree – Architectural Design, ITT Technical, Fort Wayne, IN June, 1997"
+		],
+
+		"certification" : [
+			"Google Doubleclick Studio – Flash Rich-Media Banner Ads"
+		],
+
+		"referenceMessage" : "References Available Upon Request"
+	}
+]
