@@ -1,0 +1,41 @@
+
+Hello, just wanted to give some context to these code samples that were requested
+
+1. lps
+
+I've uploaded 4 sample pages to review.
+1,2 and 4 are just sorta basic landing pages. 2,4 have a bit of animation to show that
+3 is a bit more involved.  This was fleshed out more but this is about as far as I got on my local machine before it was moved into a different environment.  Essentially, this is an internal tool used for iPay/Jack Henry for their internal team.
+
+
+
+2. styleguide
+
+This is something that I have been working on recently utilizing an atomic methodology ... Here is a url to give more context to what I mean http://atomicdesign.bradfrost.com/chapter-2/
+I'm building this in parallel to a styleguide.  If you navigate to the template, you'll see that the template is enclosed in the styleguide interface.  I've made this so that by commenting out a line of Css (Sass include statement), the styleguide interface blows away and you can see the template full screen.  Either way, still haven't gotten this complete but I thought was pretty cool concept.
+
+
+
+3. Portfolio
+
+This is my portfolio src code: written in React so that you may be able to see some of that code.
+
+
+
+4. Intranet
+
+This example is a prototype designed to fit everything inside of the available space on a given screen.  The window stretches full height and provides the ability to scroll documents inside of the window.  It is meant to show word.doc and excel files as well as .pdf and regular html.  The purpose is for a company to use this as a hub to host internal documents for employees.
+
+
+
+.......
+
+
+I thought this would be sufficient to get the ball rolling to illustrate some of the various things that I have done for starters.
+I use Node.js a lot for my development... (server, task-running and preprocessing)
+
+I would be happy to point you to more if you would like to see additional examples of anything in particular that you would like to see more of.  Thank you
+
+
+
+
